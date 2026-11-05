@@ -1,6 +1,8 @@
-# CI/CD Tools and Practices Final Project Template
+# CI/CD Tools and Practices Final Project
 
-This repository contains the template to be used for the Final Project for the Coursera course **CI/CD Tools and Practices**.
+**Project name:** ci-cd-final-project — Hit Counter Service CI/CD Pipeline
+
+This repository contains the Final Project for the Coursera course **CI/CD Tools and Practices**: a Flask "Hit Counter" REST service with a GitHub Actions CI workflow (flake8 linting + nose unit tests) and a Tekton / OpenShift Pipelines CD pipeline (cleanup, git-clone, lint, test, build, deploy).
 
 ## Usage
 
